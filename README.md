@@ -91,7 +91,6 @@ Módulo web ataque:
 ```txt
 Credential Harvester Attack Method
 ```
-
 <img src="https://github.com/user-attachments/assets/fa4531ef-c5a7-47fb-a8f5-e4f1e97e1c2e" alt="passo3" width="500" height="400" />
 
 <br></br>
@@ -100,12 +99,25 @@ Método de ataque:
 ```txt
 Custom Import
 ```
-<img src="https://github.com/user-attachments/assets/91f902b9-b710-4c8c-adfb-6d51c2dbfe04" alt="passo3" width="500" height="400" 
+
+<img src="https://github.com/user-attachments/assets/1851173e-f06c-4d6f-9b66-0c79033cb9d5" alt="passo4" width="400" height="200" />
+
 
 <h4>Parte 2</h4>
 
 Depois da escolha do método de ataque, iremos confirmar o nosso **IP da maquina** somente apertando na tecla Enter:
 
-![image](https://github.com/user-attachments/assets/25cc5dc9-f3ec-4787-8397-0094afb00548)
+<img src="https://github.com/user-attachments/assets/25cc5dc9-f3ec-4787-8397-0094afb00548" alt="passo4" width="400" height="200" />
+
+<br></br>
+Posteriomente, adicionaremos a nossa URl de login. Aqui estou utilizando a URL do **www.facebook.com**:
+
+<img src="https://github.com/user-attachments/assets/dc3b7c15-284d-40f3-9930-c3e0bc5337b3" alt="passo4" width="400" height="200" />
+
+Para continuar o processo indo até o site do Facebook, salvar a página em formato de arquivo com o código. Para isso, será necessario
+aperta com o lado esquerdo do mouse e selecionar a opção **Save Page As...**:
+
+<img src="" alt="passo4" width="400" height="200" />
+
 
 
