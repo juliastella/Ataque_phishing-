@@ -47,9 +47,11 @@ gnome-boxes --version
 
 <h3>Kali Linux</h3>
 
+A instalação da imagem iso pode ser feita no site [oficial](https://www.kali.org/get-kali/#kali-installer-images), utilizei a opção **Installer images => Kali Linux 2024.4 Changelog** 
 
+<h3>Setoolkit</h3>
 
-
+No terminal da maquina virtal do Kali Linux
 
 
 
