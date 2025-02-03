@@ -51,7 +51,38 @@ A instalação da imagem iso pode ser feita no site [oficial](https://www.kali.o
 
 <h3>Setoolkit</h3>
 
-No terminal da maquina virtal do Kali Linux
+No terminal da maquina virtal do Kali Linux digite para entra como sudo:
+
+```bash
+sudo su
+```
+
+Depois de colocar sua senha, iniciei o setoolkit:
+
+```bash
+setoolkit
+```
+<img src="https://github.com/user-attachments/assets/ca610a75-3ec8-4cf4-b529-762872172a4b" alt="Design sem nome (1)" width="500" height="400" />
+
+<br></br>
+
+Agora iremos escolher a opção de tipo de ataque:
+
+```txt
+Social-Engineering Attacks 
+```
+
+<img src="https://github.com/user-attachments/assets/178f0323-97be-44cf-b789-ff16b7422811" alt="passo1" width="500" height="400" />
+
+<br></br>
+Nosso vertor de ataque:
+
+```txt
+Web Site Attack Vectors
+```
+
+<img src="https://github.com/user-attachments/assets/81e08e3a-a406-4c90-8a09-f99cc558e9de" alt="passo2" width="500" height="400" />
+
 
 
 
