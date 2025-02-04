@@ -1,119 +1,151 @@
-<h1>Ataque Phishing para captura dados de login</h1>
+# Ataque Phishing para Captura de Dados de Login
 
-Nesse projeto criaremos um ataque phishing com o sistema operacional Kali Linux ou Parrot Security.
+Este projeto demonstra a criação de um ataque phishing utilizando os sistemas operacionais Kali Linux ou Parrot Security.
 
-**Prerequisitos**
+## 📌 Pré-requisitos
 
-- Kali Linux ou Parrot Security;
-- Gnome box; 
-- Setoolkit;
+- Kali Linux ou Parrot Security
+- Gnome Boxes
+- Setoolkit
 - Visual Studio Code
 
-<h2>Instalação e configuração</h2>
+---
 
-<h3>Gnome Box</h3>
+## 🚀 Instalação e Configuração
 
-A instalação do Gnome Box pode ser feita no [site oficial](https://apps.gnome.org/en/Boxes/), estou utilizando o sistmema
-operacional fedora. Com isso, utilizei o terminal seguindo os seguintes passos
+### 🖥️ Gnome Boxes
+A instalação do Gnome Boxes pode ser feita através do [site oficial](https://apps.gnome.org/en/Boxes/). Neste projeto, estou utilizando o sistema operacional Fedora. Portanto, utilizei o terminal e segui os seguintes passos:
 
-<h4>1. Atualização do sitema</h4>
+#### 1️⃣ Atualização do Sistema
+Antes de instalar o Kali Linux, é importante consultar a documentação oficial do sistema operacional e decidir qual máquina virtual será utilizada. Neste projeto, utilizarei o [**Gnome Boxes**](https://apps.gnome.org/en/Boxes/).
 
-Para a instalação do Kali Linux é importante ler a documentação do sistema operacioanal, como
-também qual a maquina virtual será usada. Nesse projeto, usarei a [***Gnome Box***](https://apps.gnome.org/en/Boxes/).
-
-Necessário atualizar o sistema:
-
+Atualize o sistema com:
 ```bash
 sudo dnf update && sudo dnf upgrade
 ```
 
-<h4>2. Instalação do Gnome</h4>
-
-Estou utilizando o gerenciador de pacote **dnf**:
-
+#### 2️⃣ Instalação do Gnome Boxes
+Utilizando o gerenciador de pacotes **dnf**:
 ```bash
 sudo dnf install gnome-boxes
 ```
 
-<h4>3. Verificar a instalação</h4>
-
+#### 3️⃣ Verificar a Instalação
 ```bash
 gnome-boxes --version
 ```
 
-<h3>Kali Linux ou Parrot Security</h3>
+---
 
-A instalação da imagem iso pode ser feita no [site oficial Kali Linux](https://www.kali.org/get-kali/#kali-installer-images) ou [site oficial Parrot Security](https://parrotsec.org/download/), utilizei a opção **Installer images => Kali Linux 2024.4 Changelog** 
+### 📥 Instalação do Kali Linux ou Parrot Security
+A imagem ISO pode ser baixada nos sites oficiais:
+- [Kali Linux](https://www.kali.org/get-kali/#kali-platforms)
+- [Parrot Security](https://parrotsec.org/download/)
 
-<h3>Setoolkit</h3>
+Opções utilizadas neste projeto:
+- **Kali Linux** → *Installer images → Kali Linux 2024.4 Changelog*
+- **Parrot Security** → *Live → Security → AMD64*
 
-<h4>Parte 1</h4>
+---
 
-No terminal da maquina virtal do Kali Linux digite para entra como sudo:
+### 🛠️ Configuração do Setoolkit
 
+#### 🔹 Parte 1: Iniciando o Setoolkit
+No terminal da máquina virtual do Kali Linux, entre como superusuário:
 ```bash
 sudo su
 ```
-
-Depois de colocar sua senha, iniciei o setoolkit:
-
+Após inserir a senha, inicie o **Setoolkit**:
 ```bash
 setoolkit
 ```
+
+
 <img src="https://github.com/user-attachments/assets/ca610a75-3ec8-4cf4-b529-762872172a4b" alt="Design sem nome (1)" width="500" height="400" />
 
 <br></br>
+> **Escolha o tipo de ataque:**
 
-Agora iremos escolher a opção de tipo de ataque:
+Social-Engineering Attacks
 
-```txt
-Social-Engineering Attacks 
-```
+
 
 <img src="https://github.com/user-attachments/assets/178f0323-97be-44cf-b789-ff16b7422811" alt="passo1" width="500" height="400" />
 
 <br></br>
-Nosso vertor de ataque:
+> **Selecionar vetor de ataque:**
 
-```txt
 Web Site Attack Vectors
-```
+
+
 
 <img src="https://github.com/user-attachments/assets/81e08e3a-a406-4c90-8a09-f99cc558e9de" alt="passo2" width="500" height="400" />
 
 <br></br>
-Módulo web ataque:
+> **Módulo de ataque web:**
 
-```txt
 Credential Harvester Attack Method
-```
+
+
+
 <img src="https://github.com/user-attachments/assets/fa4531ef-c5a7-47fb-a8f5-e4f1e97e1c2e" alt="passo3" width="500" height="400" />
 
 <br></br>
-Método de ataque:
+> **Método de ataque:**
 
-```txt
 Custom Import
-```
+
+
 
 <img src="https://github.com/user-attachments/assets/1851173e-f06c-4d6f-9b66-0c79033cb9d5" alt="passo4" width="400" height="200" />
 
+<br></br>
+#### 🔹 Parte 2: Configuração do Ataque
+Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP da máquina**.
 
-<h4>Parte 2</h4>
 
-Depois da escolha do método de ataque, iremos confirmar o nosso **IP da maquina** somente apertando na tecla Enter:
-
-<img src="https://github.com/user-attachments/assets/25cc5dc9-f3ec-4787-8397-0094afb00548" alt="passo4" width="400" height="200" />
+<img src="https://github.com/user-attachments/assets/25cc5dc9-f3ec-4787-8397-0094afb00548" alt="passo5" width="500" height="400" />
 
 <br></br>
-Posteriomente, adicionaremos a nossa URl de login. Aqui estou utilizando a URL do **www.facebook.com**:
-
-<img src="https://github.com/user-attachments/assets/dc3b7c15-284d-40f3-9930-c3e0bc5337b3" alt="passo4" width="400" height="200" />
-
-Para continuar o processo indo até o site do Facebook, salvar a página em formato de arquivo com o código. Para isso, será necessario
-aperta com o lado esquerdo do mouse e selecionar a opção **Save Page As...**:
-
-<img src="" alt="passo4" width="400" height="200" />
+Em seguida, adicione a **URL de login** desejada. Neste caso, utilizarei **www.facebook.com**.
 
 
+<img src="https://github.com/user-attachments/assets/dc3b7c15-284d-40f3-9930-c3e0bc5337b3" alt="passo6" width="500" height="400" />
+
+<br></br>
+Agora, vá até o site do Facebook e salve a página como um arquivo contendo o código-fonte:
+
+
+<img src="https://github.com/user-attachments/assets/57d1c2bd-8ac8-4f86-8e9b-783d26687d20" alt="passo7" width="500" height="400" />
+
+<br></br>
+Depois, abra o código salvo no **Visual Studio Code**, localize o botão de **Login** via **Inspect Element (Q)** e copie seu ID. Em seguida, remova esse ID do código.
+
+
+<img src="https://github.com/user-attachments/assets/e1287be6-fd90-415c-87a9-a71b3d2d2c25" alt="passo8" width="500" height="400" />
+
+<br></br>
+Agora, no **Path to the website you imported**, informe o caminho do arquivo salvo. Na opção **URL of the website you imported**, insira `www.facebook.com`.
+
+
+<img src="https://github.com/user-attachments/assets/aeb14373-1a45-42dd-bf79-0d49965bde10" alt="passo10" width="500" height="400" />
+
+
+---
+
+## 🎯 Resultado
+Após concluir o processo, conseguimos visualizar os dados capturados, incluindo **e-mail** e **senha**:
+
+
+<img src="https://github.com/user-attachments/assets/cd02056e-d791-4c3d-8ef0-776fd1abf31c" alt="passo11" width="500" height="400" />
+
+
+---
+
+## ⚠️ Nota de Esclarecimento
+Este repositório tem **fins educacionais** e busca contribuir para o conhecimento geral da comunidade sobre segurança cibernética. Lembramos que o uso de ataques phishing com intenção maliciosa é crime e está previsto na [Lei 14.155/2021](https://www12.senado.leg.br/noticias/materias/2021/05/28/lei-com-penas-mais-duras-contra-crimes-ciberneticos-e-sancionada).
+
+---
+
+**🔒 Estude cibersegurança de forma ética!**
 
