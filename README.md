@@ -1,16 +1,10 @@
 <h1>Ataque Phishing para captura dados de login</h1>
 
-Nesse projeto criaremos um ataque phishing com o sistema operacional Kali Linux.
+Nesse projeto criaremos um ataque phishing com o sistema operacional Kali Linux ou Parrot Security.
 
-**Requistos do projeto**
+**Prerequisitos**
 
- - [Conhecimento básico com sistemas operacionais do Linux;](https://www.hostgator.com.br/blog/linux-tudo-sobre-sistema/)
- - [Conhecimento básico em maquina virtual;](https://www.redhat.com/pt-br/topics/virtualization/what-is-a-virtual-machine)  
- - [Conhecimento básico em Pentest;](https://resh.com.br/blog/pentest-o-que-e-como-funciona-e-para-que-serve/)
-
-**Ferramentas utilizadas**
-
-- Kali Linux;
+- Kali Linux ou Parrot Security;
 - Gnome box; 
 - Setoolkit;
 - Visual Studio Code
@@ -19,16 +13,18 @@ Nesse projeto criaremos um ataque phishing com o sistema operacional Kali Linux.
 
 <h3>Gnome Box</h3>
 
-A instalação do Gnome Box pode ser feita no site [oficial](https://apps.gnome.org/en/Boxes/), estou utilizando o sistmema
+A instalação do Gnome Box pode ser feita no [site oficial](https://apps.gnome.org/en/Boxes/), estou utilizando o sistmema
 operacional fedora. Com isso, utilizei o terminal seguindo os seguintes passos
 
 <h4>1. Atualização do sitema</h4>
 
 Para a instalação do Kali Linux é importante ler a documentação do sistema operacioanal, como
-também qual a maquina virtual será usada. Nesse projeto, usarei a [***Gnome Box***](https://apps.gnome.org/en/Boxes/):
+também qual a maquina virtual será usada. Nesse projeto, usarei a [***Gnome Box***](https://apps.gnome.org/en/Boxes/).
+
+Necessário atualizar o sistema:
 
 ```bash
-sudo dnf update
+sudo dnf update && sudo dnf upgrade
 ```
 
 <h4>2. Instalação do Gnome</h4>
@@ -45,9 +41,9 @@ sudo dnf install gnome-boxes
 gnome-boxes --version
 ```
 
-<h3>Kali Linux</h3>
+<h3>Kali Linux ou Parrot Security</h3>
 
-A instalação da imagem iso pode ser feita no site [oficial](https://www.kali.org/get-kali/#kali-installer-images), utilizei a opção **Installer images => Kali Linux 2024.4 Changelog** 
+A instalação da imagem iso pode ser feita no [site oficial Kali Linux](https://www.kali.org/get-kali/#kali-installer-images) ou [site oficial Parrot Security](https://parrotsec.org/download/), utilizei a opção **Installer images => Kali Linux 2024.4 Changelog** 
 
 <h3>Setoolkit</h3>
 
