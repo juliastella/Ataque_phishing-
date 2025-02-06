@@ -104,7 +104,7 @@ Custom Import
 Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP da máquina**.
 
 
-<img src="https://github.com/user-attachments/assets/25cc5dc9-f3ec-4787-8397-0094afb00548" alt="passo5" width="500" height="400" />
+<img src="https://github.com/user-attachments/assets/f9f28826-36ae-4224-af2f-46fec5cadfc4" alt="passo5" width="500" height="400" />
 
 <br></br>
 Em seguida, adicione a **URL de login** desejada. Neste caso, utilizarei **www.facebook.com**.
@@ -173,6 +173,7 @@ Logo apos a tentativa de enviar, é possivel notar que o botão de login não ir
 
 <br></br>
 Porém, vale resalta que alguns sites não possuem esse sistema de defesa!
+
 ---
 
 ## ⚠️ Nota de Esclarecimento
