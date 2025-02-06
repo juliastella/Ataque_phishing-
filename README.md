@@ -109,7 +109,7 @@ Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP 
 <br></br>
 Em seguida, adicione a **URL de login** desejada. Neste caso, utilizarei **www.facebook.com**.
 
-<img src="https://github.com/user-attachments/assets/dc3b7c15-284d-40f3-9930-c3e0bc5337b3" alt="passo6" width="500" height="400" />
+<img src="https://github.com/user-attachments/assets/4970ad34-6207-447c-9564-9a837dca081a" alt="passo6" width="500" height="400" />
 
 <br></br>
 Agora, vá até o site do Facebook e salve a página como um arquivo contendo o código-fonte:
@@ -127,7 +127,8 @@ Depois, abra o código salvo no **Visual Studio Code**, localize o botão de **L
 Agora, no **Path to the website you imported**, informe o caminho do arquivo salvo. Na opção **URL of the website you imported**, insira `www.facebook.com`.
 
 
-<img src="https://github.com/user-attachments/assets/aeb14373-1a45-42dd-bf79-0d49965bde10" alt="passo10" width="500" height="400" />
+<img src="https://github.com/user-attachments/assets/4970ad34-6207-447c-9564-9a837dca081a" alt="passo10" width="500" height="400" />
+
 
 ---
 
@@ -157,7 +158,7 @@ Site Cloner
 <br></br>
 Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP da máquina**, e adiciona a URL, neste caso: **www.facebook.com**.
 
-<img src="https://github.com/user-attachments/assets/a7ffb68b-94b6-4e3d-b035-de0f8671fc33" alt="passo10" width="500" height="400" />
+<img src="https://github.com/user-attachments/assets/5637c3c5-550d-4da8-b893-1ab03cc77a19" alt="passo10" width="500" height="400" />
 
 <br></br>
 Agora pegaremos o ip da nossa máquina e colocaremos na URL de qualque navegador e adicionaremos os dados de **login** e **password** e tentaremos enviar.
