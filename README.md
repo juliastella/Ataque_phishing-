@@ -134,7 +134,7 @@ Agora, no **Path to the website you imported**, informe o caminho do arquivo sal
 ---
 
 ## 🎯 Resultado
-Após concluir o processo, conseguimos visualizar os dados capturados, incluindo **e-mail** e **senha**:
+Após concluir o processon, basta acessar a URL que configuramos **www.facebook.com**. Com isso conseguimos visualizar os dados capturados, incluindo **e-mail** e **senha**:
 
 
 <img src="https://github.com/user-attachments/assets/cd02056e-d791-4c3d-8ef0-776fd1abf31c" alt="passo11" width="500" height="400" />
