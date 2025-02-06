@@ -142,11 +142,11 @@ Após concluir o processon, basta acessar a URL que configuramos **www.facebook.
 ---
 
 ### 🛠️ Configuração do Setoolkit como Método de ataque 2
-Iremos configurar a segunda parte como o metodo mais facil de conseguir dados do usuario.
+Iremos configurar a segunda parte como o método mais fácil de conseguir dados do usuário.
 
 #### 🔹 Parte 2: Configuração do Ataque
-Esse metodo de ataque é o mais conhecido da ferramenta, porém alguns sites já possuem metodos de segurança
-para impedir esse tipo de ataque. O site do Facebook possui essas medidas de segurança que impende, nelas é possivel ver  
+Esse método de ataque é o mais conhecido da ferramenta, porém alguns sites já possuem métodos de segurança contra ele.
+Para impedir esse tipo de ataque, o site do Facebook já possui essas medidas de segurança, nelas é possível ver.
 
 <br></br>
 > **Método de ataque:**
@@ -156,24 +156,24 @@ Site Cloner
 <img src="https://github.com/user-attachments/assets/9e706d34-2155-4fc1-a747-b24712818f70" alt="passo10" width="500" height="400" />
 
 <br></br>
-Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP da máquina**, e adiciona a URL, neste caso: **www.facebook.com**.
+Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP da máquina**, e adicione a URL, neste caso: **www.facebook.com**.
 
 <img src="https://github.com/user-attachments/assets/5637c3c5-550d-4da8-b893-1ab03cc77a19" alt="passo10" width="500" height="400" />
 
 <br></br>
-Agora pegaremos o ip da nossa máquina e colocaremos na URL de qualque navegador e adicionaremos os dados de **login** e **password** e tentaremos enviar.
+Agora pegaremos o IP da nossa máquina e colocaremos na URL de qualquer navegador, adicionaremos os dados de **login** e **password** e tentaremos enviar.
 
 <img src="https://github.com/user-attachments/assets/75270a1a-fa0b-4a9b-a95b-c21e19292cd3" alt="passo10" width="500" height="400" />
 
 ---
 
 ## 🎯 Resultado
-Logo apos a tentativa de enviar, é possivel notar que o botão de login não irá parecer que está funcionado, voltando ao terminal é possiver visualiza um log de **POSSIBLE URSERNAME FIELD FOUND**, essa é a barreira de Facebook funcionando, é extremamente importante para impedir praticas malisiosa.
+Logo após a tentativa de enviar, é possível notar que o botão de login não irá parecer que está funcionando. Voltando ao terminal, é possível visualizar um log de **POSSIBLE URSERNAME FIELD FOUND**, essa é a barreira colocada pelo Facebook. Ela é extremamente importante para impedir práticas maliciosas.
 
 <img src="https://github.com/user-attachments/assets/4b41a13e-3d6c-4de1-b880-2d59ed5b05b0" alt="passo10" width="500" height="400" />
 
 <br></br>
-Porém, vale resalta que alguns sites não possuem esse sistema de defesa!
+Porém, vale ressaltar que alguns sites não possuem esse sistema de defesa!
 
 ---
 
