@@ -164,12 +164,15 @@ Agora pegaremos o ip da nossa máquina e colocaremos na URL de qualque navegador
 
 <img src="https://github.com/user-attachments/assets/75270a1a-fa0b-4a9b-a95b-c21e19292cd3" alt="passo10" width="500" height="400" />
 
-<br></br>
+---
+
+## 🎯 Resultado
 Logo apos a tentativa de enviar, é possivel notar que o botão de login não irá parecer que está funcionado, voltando ao terminal é possiver visualiza um log de **POSSIBLE URSERNAME FIELD FOUND**, essa é a barreira de Facebook funcionando, é extremamente importante para impedir praticas malisiosa.
 
 <img src="https://github.com/user-attachments/assets/4b41a13e-3d6c-4de1-b880-2d59ed5b05b0" alt="passo10" width="500" height="400" />
 
-
+<br></br>
+Porém, vale resalta que alguns sites não possuem esse sistema de defesa!
 ---
 
 ## ⚠️ Nota de Esclarecimento
