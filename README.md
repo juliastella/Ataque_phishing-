@@ -60,6 +60,7 @@ Após inserir a senha, inicie o **Setoolkit**:
 setoolkit
 ```
 
+#### 🔹 Parte 2: Configuração do Ataque
 
 <img src="https://github.com/user-attachments/assets/ca610a75-3ec8-4cf4-b529-762872172a4b" alt="Design sem nome (1)" width="500" height="400" />
 
@@ -100,7 +101,6 @@ Custom Import
 <img src="https://github.com/user-attachments/assets/1851173e-f06c-4d6f-9b66-0c79033cb9d5" alt="passo4" width="400" height="200" />
 
 <br></br>
-#### 🔹 Parte 2: Configuração do Ataque
 Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP da máquina**.
 
 
@@ -108,7 +108,6 @@ Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP 
 
 <br></br>
 Em seguida, adicione a **URL de login** desejada. Neste caso, utilizarei **www.facebook.com**.
-
 
 <img src="https://github.com/user-attachments/assets/dc3b7c15-284d-40f3-9930-c3e0bc5337b3" alt="passo6" width="500" height="400" />
 
@@ -130,7 +129,6 @@ Agora, no **Path to the website you imported**, informe o caminho do arquivo sal
 
 <img src="https://github.com/user-attachments/assets/aeb14373-1a45-42dd-bf79-0d49965bde10" alt="passo10" width="500" height="400" />
 
-
 ---
 
 ## 🎯 Resultado
@@ -138,6 +136,38 @@ Após concluir o processon, basta acessar a URL que configuramos **www.facebook.
 
 
 <img src="https://github.com/user-attachments/assets/cd02056e-d791-4c3d-8ef0-776fd1abf31c" alt="passo11" width="500" height="400" />
+
+
+---
+
+### 🛠️ Configuração do Setoolkit como Método de ataque 2
+Iremos configurar a segunda parte como o metodo mais facil de conseguir dados do usuario.
+
+#### 🔹 Parte 2: Configuração do Ataque
+Esse metodo de ataque é o mais conhecido da ferramenta, porém alguns sites já possuem metodos de segurança
+para impedir esse tipo de ataque. O site do Facebook possui essas medidas de segurança que impende, nelas é possivel ver  
+
+<br></br>
+> **Método de ataque:**
+
+Site Cloner
+
+<img src="https://github.com/user-attachments/assets/9e706d34-2155-4fc1-a747-b24712818f70" alt="passo10" width="500" height="400" />
+
+<br></br>
+Após selecionar o método de ataque, pressione **Enter** para confirmar o **IP da máquina**, e adiciona a URL, neste caso: **www.facebook.com**.
+
+<img src="https://github.com/user-attachments/assets/a7ffb68b-94b6-4e3d-b035-de0f8671fc33" alt="passo10" width="500" height="400" />
+
+<br></br>
+Agora pegaremos o ip da nossa máquina e colocaremos na URL de qualque navegador e adicionaremos os dados de **login** e **password** e tentaremos enviar.
+
+<img src="https://github.com/user-attachments/assets/75270a1a-fa0b-4a9b-a95b-c21e19292cd3" alt="passo10" width="500" height="400" />
+
+<br></br>
+Logo apos a tentativa de enviar, é possivel notar que o botão de login não irá parecer que está funcionado, voltando ao terminal é possiver visualiza um log de **POSSIBLE URSERNAME FIELD FOUND**, essa é a barreira de Facebook funcionando, é extremamente importante para impedir praticas malisiosa.
+
+<img src="https://github.com/user-attachments/assets/4b41a13e-3d6c-4de1-b880-2d59ed5b05b0" alt="passo10" width="500" height="400" />
 
 
 ---
